@@ -1,0 +1,54 @@
+/*
+ * Design system — "paper and ink".
+ * One warm paper surface, near-black ink, ONE signal colour (vermilion) and one status colour (teal).
+ * Type: Instrument Serif for display, Inter for reading and UI, JetBrains Mono for data labels only.
+ * Contrast on --bg (#f4f1ea): text 16.5, text-2 10.1, muted 6.2, accent-2 6.0, ok 6.3. Nothing below 4.5.
+ */
+:root {
+  /* Surface */
+  --bg: #f4f1ea;
+  --bg-1: #ede9df; /* quiet wash for bands */
+  --bg-2: #e6e1d4; /* cards, wells */
+  --ink: #15130f; /* inverse surface (dark sections) */
+  --line: rgba(21, 19, 15, 0.12);
+  --line-2: rgba(21, 19, 15, 0.3);
+
+  /* Text */
+  --text: #15130f;
+  --text-2: #3b372f;
+  --muted: #5a554a;
+  --faint: #6a6457;
+
+  /* Colour. Accent = identity + emphasis. OK = verified / live. Warn = placeholders and partial results. */
+  --accent: #d2401f;
+  --accent-2: #b3321a; /* accent for text on paper */
+  --ok: #0c6a6d;
+  --warn: #8a5a00;
+  --warn-bg: rgba(138, 90, 0, 0.08);
+  --on-ink: #f4f1ea; /* text on inverse surfaces */
+  --on-ink-2: #c9c3b4;
+
+  /* Type */
+  --f-head: 'Instrument Serif', 'Iowan Old Style', Georgia, serif;
+  --f-body: 'Inter Variable', 'Inter', system-ui, sans-serif;
+  --f-mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, monospace;
+
+  /* The whole type scale. Nothing else is allowed. */
+  --fs-display: clamp(3.1rem, 7.2vw, 6.2rem);
+  --fs-h2: clamp(2.5rem, 4.8vw, 4.1rem);
+  --fs-h3: clamp(1.9rem, 3vw, 2.6rem);
+  --fs-h4: 1.25rem;
+  --fs-lede: clamp(1.25rem, 1.9vw, 1.5rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-label: 0.8125rem; /* the floor: nothing on the site is smaller than 13px */
+
+  /* Layout */
+  --wrap: 1240px;
+  --gutter: clamp(20px, 4vw, 48px);
+  --nav-h: 68px;
+  --r: 2px;
+  --r-lg: 3px;
+  --ease: cubic-bezier(0.22, 0.8, 0.2, 1);
+  --section: clamp(80px, 10vw, 144px);
+}
