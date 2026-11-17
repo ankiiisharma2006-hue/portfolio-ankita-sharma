@@ -19,5 +19,5 @@ export const site = {
 
   // Public address of the site once hosted, e.g. 'https://ankita-sharma.netlify.app'.
   // Used for canonical + Open Graph tags (link previews when the link is shared).
-  url: '',
+  url: 'https://ankita-sharma-ai-portfolio.netlify.app',
 };
