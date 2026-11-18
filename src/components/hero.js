@@ -20,12 +20,13 @@ export function renderHero() {
       <div class="hero-copy">
         <p class="eyebrow" data-reveal><span class="live" aria-hidden="true"></span>${esc(site.role)}</p>
         <h1 id="hero-title">
-          <span class="line" style="--d:0"><span>AI automation,</span></span>
-          <span class="line" style="--d:1"><span>built to be</span></span>
-          <span class="line" style="--d:2"><span><em>checked.</em></span></span>
+          <span class="line" style="--d:0"><span>I build</span></span>
+          <span class="line" style="--d:1"><span><em>agentic RAG</em></span></span>
+          <span class="line" style="--d:2"><span>and AI automation</span></span>
+          <span class="line" style="--d:3"><span>systems.</span></span>
         </h1>
         <p class="hero-sub" data-reveal style="--d:3">
-          I build AI agents, the web interfaces around them and the automation behind them, from n8n workflows and RAG systems to chat and approval screens. I write down what passed, what failed and what is still untested.
+          AI agents that retrieve and act, the web interfaces around them and the n8n workflows behind them, from chat and approval screens to knowledge assistants. I write down what passed, what failed and what is still untested.
         </p>
         <div class="hero-cta" data-reveal style="--d:4">
           <a class="btn primary" href="#projects">Explore the work ${icons.arrowDown}</a>

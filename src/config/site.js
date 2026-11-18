@@ -13,7 +13,7 @@ export const site = {
   role: 'AI Automation Engineer',
   title: 'Ankita Sharma — AI Automation Engineer',
   description:
-    'AI automation engineer building AI agents, the web interfaces around them and the automation behind them: n8n workflows, RAG applications and approval-based agent apps.',
+    'AI automation engineer building agentic RAG and AI automation systems: AI agents, the web interfaces around them and n8n workflows with human approval.',
 
   showPlaceholders: false,
 
